@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revision of Tasks</title>
+</head>
+<body>
+    <pre>
+         //ASSESSMENT-8
+        //Q-1
+     //Multiples of 5
+     var arr=[3,5,10,15,23,22,25,35,56]
+     var arr1=[];
+     for(i in arr)
+     {
+        if(arr[i]%5==0)
+     {
+        arr1[arr1.length]=arr[i];
+     }
+     }
+     console.log(arr1);
+     OUTPUT:[ 5, 10, 15, 25, 35 ]
+
+     //Q-2
+     var arr=["htmL","csS","javaScrIPT","react","angulaR","nodE","EXPREss"]
+     var arr1=[];
+     for(i in arr)
+     {
+        if(arr[i].at(-1)== arr[i].at(-1).toUpperCase())
+        {
+            arr1.push(arr[i]);
+        }
+     }
+     console.log(arr1);
+     OUTPUT:[ 'htmL', 'csS', 'javaScrIPT', 'angulaR', 'nodE' ]
+     
+
+     //Q-3
+     var arr=["html","css","js","react","angular"]
+     var arr1=[];
+     for(i in arr)
+     {
+       if(i%2==0)
+       {
+        arr1[arr1.length]=arr[i].toUpperCase()
+       }
+     }
+     console.log(arr1);
+     OUTPUT:[ 'HTML', 'JS', 'ANGULAR' ]
+    </pre>
+</body>
+</html>
